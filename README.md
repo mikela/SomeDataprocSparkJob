@@ -25,7 +25,9 @@ gcloud dataproc clusters create ${CLUSTER_NAME} \
 ```
 2. While the cluster is created you can build the jar we are going to deploy: 
 
-``` sbt assembly ```
+``` 
+sbt assembly 
+```
 
 3. Submit the Spark job on "dev" mode:
 ```
